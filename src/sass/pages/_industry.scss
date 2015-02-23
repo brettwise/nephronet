@@ -1,0 +1,61 @@
+.industry {
+  background-color: $turquoise;
+  color: white;
+  h2 {
+    color: $dark-turquoise;
+  }
+}
+.doctors {
+    background: url('../images/biotechdoctors.jpg') no-repeat center center fixed;;
+    background-size: cover;
+    h2 {
+    color: $dark-green;
+  }
+}
+.collaborate {
+  h2 {
+    color: $nephro-blue;
+  }
+  p {
+    color: $gray-green;
+  }
+}
+.education {
+  background: url('../images/education.jpg')no-repeat center center fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.download {
+  color: white;
+  background-color: rgba(0,0,0, 0.6);
+  padding: 5rem;
+  margin-bottom: -2rem;
+  padding-top: 15rem;
+  padding-bottom: 15rem;
+}
+.social-proof {
+  background-color: $gray-green;
+  h2 {
+    color: white;
+  }
+  h3 {
+    color: $light-green;
+  }
+  h6 {
+    margin-top: -21px;
+  }
+  p {
+    @include font-italic;
+  }
+  .columns {
+    margin-left: 0px;
+    padding-left: 30px;
+  }
+}
+.bottom-call-to-action {
+  background-color: white;
+  color: $gray-green;
+  h6 {
+    color: $gray-green;
+  }
+}

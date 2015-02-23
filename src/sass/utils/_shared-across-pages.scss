@@ -1,0 +1,23 @@
+.top-call-to-action {
+  text-align: center;
+  h1 {
+    font-size: 12rem;
+  }
+  h2 {
+    text-transform: uppercase;
+  }
+}
+.section-padding {
+  padding: 15rem 0 14rem;
+}
+.half-section-padding {
+  padding: 7rem 0 6rem;
+}
+.button {
+  color: $dark-turquoise;
+  font-size: 2rem;
+  border: solid $dark-turquoise;
+  &:hover {
+    color: gray;
+  }
+}

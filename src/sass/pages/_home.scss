@@ -1,0 +1,117 @@
+$image-menu-width: 400px;
+$gradient-color-one: $nephro-blue;
+$gradient-color-two: $light-green;
+
+.homepage-gradient {
+  height: 100vh;
+  background: linear-gradient(180deg, #13448b, #1858b5);
+  background-size: 400% 400%;
+  -webkit-animation: AnimationName 33s ease infinite;
+  -moz-animation: AnimationName 33s ease infinite;
+  -o-animation: AnimationName 33s ease infinite;
+  animation: AnimationName 33s ease infinite;
+  @-webkit-keyframes AnimationName {
+      0%{background-position:50% 0%}
+      50%{background-position:50% 100%}
+      100%{background-position:50% 0%}
+  }
+  @-moz-keyframes AnimationName {
+      0%{background-position:50% 0%}
+      50%{background-position:50% 100%}
+      100%{background-position:50% 0%}
+  }
+  @-o-keyframes AnimationName {
+      0%{background-position:50% 0%}
+      50%{background-position:50% 100%}
+      100%{background-position:50% 0%}
+  }
+  @keyframes AnimationName {
+      0%{background-position:50% 0%}
+      50%{background-position:50% 100%}
+      100%{background-position:50% 0%}
+  }
+}
+.logo{
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 5%;
+  p {
+    font-size: 2.5rem;
+    margin-top: -25px;
+    left: 35px;
+    position: relative;
+  }
+}
+p {
+  color: #ffffff;
+  font-size: 1.2em;
+  // padding-left: 26%;
+  // margin-top: -20px;
+}
+#girl-image {
+  background: url('../images/girl.jpg') no-repeat center center;
+}
+#industry {
+  background: url('../images/industry.jpg') no-repeat center center;
+}
+#stethoscope {
+  background: url('../images/stethoscope.jpg') no-repeat center center;
+}
+/***********************************************
+Pop over tiles on hover
+**********************************************/
+
+@media (min-width: 1030px) {
+  .large-12 {
+    width: 100%;
+  }
+}
+
+.hover-tile-outer {
+  background-size: cover !important;
+  // border: 4px solid blue;
+  height: $hover-tile-height;
+  margin-bottom: 10px;
+  cursor: pointer;
+  .hover-tile-container {
+    height: $hover-tile-height;
+    overflow: hidden;
+  }
+  .hover-tile-container:hover > .hover-tile {
+    transform: translate(0%, -80%);
+  }
+  .hover-tile {
+    transition: (all, .2s ease-in-out);
+    background: inherit;
+    color: white;
+    height: inherit;
+    padding: 1rem 1.5rem;
+    margin-top: -63px;
+    &:hover {
+    text-align: left;
+    padding-left: 12%; 
+    padding-top: 400px;
+    }
+  }
+  .hover-tile-visible {
+    color: transparentize(white, .3);
+    font-size: 2em;
+    font-weight: 200;  
+    padding-top: 5rem;
+    text-align: center;
+  }
+  .hover-tile-text {
+    background: transparentize(black, .5);
+    text-align: center;
+    h2 {
+      text-transform: uppercase;
+    }
+    p {
+      color: transparentize(white, .3);
+      padding-left: 7%;
+      border-left: solid;
+      border-width: 4px;
+      margin-top: 10px;
+    }
+  }
+}

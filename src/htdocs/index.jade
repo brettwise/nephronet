@@ -1,7 +1,39 @@
 extends layouts/h5bp.jade
 
 block title
-	title This Cray
+  title Nephronet - Home
 
 block content
-	p can you believe this content!
+  .homepage-gradient
+    .container
+      .row
+        .ten.columns.offset-by-one
+          .logo
+            a(href='/')
+              img.u-max-full-width(src='images/logo.png')
+            p Networking together to cure kidney disease
+      .row
+        .large-12.four.columns
+          a(href='/patients')
+            #girl-image.hover-tile-outer
+              .hover-tile-container
+                .hover-tile.hover-tile-visible
+                .hover-tile.hover-tile-text
+                  h2 Patients
+                  p Find answers to important questions about your kidney health.
+        .large-12.four.columns
+          a(href='/industry')
+            #industry.hover-tile-outer
+              .hover-tile-container
+                .hover-tile.hover-tile-visible
+                .hover-tile.hover-tile-text
+                  h2 Industry
+                  p Find information on the latest kidney research.
+        .large-12.four.columns
+          a(href='/physicians')
+            #stethoscope.hover-tile-outer
+              .hover-tile-container
+                .hover-tile.hover-tile-visible
+                .hover-tile.hover-tile-text
+                  h2 Physicians
+                  p Find out how to get expert, field leading advice from our doctors.

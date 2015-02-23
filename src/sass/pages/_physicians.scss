@@ -1,0 +1,24 @@
+.physicians {
+  background-color: $gray-green;
+  color: white;
+  h2 {
+    color: $light-green;
+  }
+}
+.stethoscope {
+    background: url('../images/stethoscope.jpg') no-repeat center center fixed;;
+    background-size: cover;
+    h2 {
+    color: $light-green;
+  }
+}
+.lab {
+  background: url('../images/lab.jpg')no-repeat center center fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.pull-on-mobile {
+	@media (max-width: 550px) {
+		left: 65.3333333333%;
+	}
+}
