@@ -2,16 +2,12 @@
   background-color: $nephro-blue;
   color: white;
   text-align: center;
-  @media (min-width: 670px) {
-    h1 {
-      font-size: 12rem;
-    }
     h2 {
       color: $dark-nephro-blue;
       text-transform: uppercase;
     }
-  }
 }
+
 .woman-doctor {
     background: url('../images/woman-doctor.jpg') no-repeat center center fixed;
     background-size: cover;
