@@ -4,16 +4,27 @@
     text-transform: uppercase;
   }
 }
+
 .section-padding {
   padding: 15rem 0 14rem;
 }
+
 .half-section-padding {
   padding: 7rem 0 6rem;
 }
+
 .button {
   color: $dark-turquoise;
   border: solid $dark-turquoise;
   &:hover {
     color: gray;
   }
+}
+
+.download {
+  color: white;
+  background-color: rgba(0,0,0, 0.6);
+  padding: 5rem;
+  padding-top: 15rem;
+  padding-bottom: 15rem;
 }
