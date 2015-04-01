@@ -54,7 +54,7 @@
 }
 
 .overlay ul li a {
-  color: $light-green;
+  color: $turquoise;
   display: block;
   font-size: 3rem;
   font-weight: 300;
@@ -69,17 +69,6 @@
 }
 
 /* Effects */
-#content.blur {
-  -webkit-filter: blur(5px);
-  -moz-filter: blur(5px);
-  -o-filter: blur(5px);
-  -ms-filter: blur(5px);
-  filter: blur(5px);
-  transition: all 0.3s;
-}
-#content.no-blur {
-  transition: all 0.3s;
-}
 .overlay-hugeinc {
   opacity: 0;
   visibility: hidden;
@@ -92,6 +81,7 @@
   visibility: visible;
   -webkit-transition: opacity 0.5s;
   transition: opacity 0.5s;
+  z-index: 1000000;
 }
 
 .overlay-hugeinc nav {
