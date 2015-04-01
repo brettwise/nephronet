@@ -18,9 +18,25 @@
   }
 }
 
-.menu-button {
-  color: white;
+// .menu-button {
+//   color: white;
+//   float: right;
+//   margin-top: 2rem;
+//   margin-right: 4rem;
+// }
+.menu {
+  border-style: solid;
+  border-width: 1px;
   float: right;
+  font-size: 1.5rem;
   margin-top: 2rem;
   margin-right: 4rem;
+  // padding-top: .5rem;
+  // padding-right: .6rem;
+  // padding-bottom: .5rem;
+  // padding-left: .6rem;
+}
+.menu-button {
+  @extend .menu;
+  @include color-background-button($white, $turquoise);
 }
