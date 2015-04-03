@@ -11,6 +11,7 @@ html.no-js(lang='en')
     // Place favicon.ico in the root directory
     link(rel='stylesheet', href='css/main.css')
     script(src='js/vendor/modernizr/modernizr.js')
+    script(src='//use.typekit.net/glx1lel.js')
     block scripts
   body
     //if lt IE 8
@@ -25,8 +26,11 @@ html.no-js(lang='en')
       include ./../includes/navbar.jade
       include ./../includes/nav-overlay.jade
       block content 
+      include ./../includes/footer.jade
     script(src='js/vendor/classie.js')
     script(src='js/nav-overlay.js')
+    script.
+      try{Typekit.load();}catch(e){}
     // Google Analytics: change UA-XXXXX-X to be your site's ID.
     script.
       (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=

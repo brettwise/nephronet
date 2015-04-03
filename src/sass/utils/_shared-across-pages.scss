@@ -1,8 +1,5 @@
 .top-call-to-action {
   text-align: center;
-  h2 {
-    text-transform: uppercase;
-  }
 }
 
 .section-padding {
@@ -11,6 +8,10 @@
 
 .half-section-padding {
   padding: 7rem 0 6rem;
+}
+
+.bottom-padding {
+  padding-bottom: 6rem;
 }
 
 .button {
@@ -29,15 +30,25 @@
   padding-bottom: 15rem;
 }
 
-.registration-link {
-  color: $red;
-  padding-top: 3rem;
+.announcement {
+  color: $white;
   letter-spacing: 1px;
-  text-align: center;
+  margin-bottom: 4rem;
+  padding-top: 7rem;
+  padding-bottom: 4rem;
   text-transform: uppercase;
-  transition: all ease 0.6s;
-  &:hover {
-    color: white;
-    transition: all ease 0.6s;
+
+  h4 {
+    margin-bottom: 7rem;
+  }
+}
+
+.bottom-call-to-action {
+  background-color: $white;
+  color: $gray-green;
+
+  h5 {
+    color: $gray-green;
+    padding-bottom: 3rem;
   }
 }

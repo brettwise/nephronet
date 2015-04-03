@@ -25,18 +25,18 @@
 //   margin-right: 4rem;
 // }
 .menu {
-  border-style: solid;
-  border-width: 1px;
+  // background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAMAAABHPGVmAAAAMFBMVEUAAAD///////////////////////////////////////////////////////////87TQQwAAAAD3RSTlMAECAwQFBgcICPr7/P3+8FXeCKAAAAhUlEQVR4Ae3VwXWDMBgE4RUK8CdC2v67TQm+sDzbb74G5jjCG6rpqFnSr+NKzlvyA4gQ+f4IESJEhuP+1OKV0fSRAGCrsE3aHbdrOm7yeCJ3IEKECJFnptWXw1aXtrOizqb7AUD/ieqS2uWwq2k4bvB4IkSI3IIIkeW4pXJcSccIOwTgtX9r0nBQfJqksgAAAABJRU5ErkJggg==);
+  color: $white;
   float: right;
-  font-size: 1.5rem;
   margin-top: 2rem;
   margin-right: 4rem;
-  // padding-top: .5rem;
-  // padding-right: .6rem;
-  // padding-bottom: .5rem;
-  // padding-left: .6rem;
-}
-.menu-button {
-  @extend .menu;
-  @include color-background-button($white, $turquoise);
+  font-size: 2.1rem;
+  text-rendering: geometricPrecision;
+  cursor: pointer;
+  cursor: hand;
+
+  &:hover {
+    color: darken($white, 4%);
+    text-decoration: underline;
+  }
 }

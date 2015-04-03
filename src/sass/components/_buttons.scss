@@ -1,0 +1,34 @@
+.primary-button {
+  border-style: solid;
+  border-width: 1px;
+  font-size: 2.5rem;
+  padding-top: 2rem;
+  padding-right: 5.4rem;
+  padding-left: 5.4rem;
+  padding-bottom: 1.75rem;
+  text-transform: uppercase;
+}
+
+// These are the primary buttons.
+.registration-button {
+  margin-top: 2rem;
+  @extend .primary-button;
+  @include color-background-button($white, $nephro-blue);
+}
+
+.industry-button {
+  margin-top: 2rem;
+  @extend .primary-button;
+  @include color-background-button($white, $turquoise);
+}
+
+.patients-button {
+  margin-top: 2rem;
+  @extend .primary-button;
+  @include color-background-button($white, $nephro-blue);
+}
+
+.physicians-button {
+  @extend .primary-button;
+  @include color-background-button($white, $gray-green);
+}

@@ -1,15 +1,15 @@
 // Button related mixins.
 // On hover color & background-color reverse for primary button style. Keeping it DRY!
-@mixin color-background-button($color, $font-color) {
-  background-color: $color;
+@mixin color-background-button($color, $background-color) {
+  background-color: $background-color;
   border-color: $color;
-  color: $font-color;
+  color: $color;
   transition: $fade;
 
   &:hover {
-    background-color: darken($color, 20%);
-    border-color: darken($color, 20%);
-    color: darken($font-color, 20%);
+    background-color: $color;
+    color: $background-color;
     transition: $fade;
+    border-color: $background-color;
   }
 }

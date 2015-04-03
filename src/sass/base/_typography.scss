@@ -4,39 +4,35 @@ $secondary-font-size: 1.2em;
 $hover-tile-height: 40rem;
 
 @mixin font-regular {
-	font-family: $font-stack;
-	font-style: normal;
-	font-weight: 400;
+  font-family: $font-stack;
+  font-style: normal;
+  font-weight: 400;
 }
 @mixin font-italic {
-	font-family: $font-stack;
-	font-style: italic;
-	font-weight: 400;
+  font-family: $font-stack;
+  font-style: italic;
+  font-weight: 400;
 }
 @mixin font-bold {
-	font-family: $font-stack;
-	font-style: normal;
-	font-weight: 700;
+  font-family: $font-stack;
+  font-style: normal;
+  font-weight: 700;
 }
 h1, p, a {
-	@include font-regular;
+  @include font-regular;
 }
 h2, h3, h4, h5, h6 {
-	@include font-bold;
+  @include font-bold;
 }
 
 .button {
-	font-size: 2rem;
-}
-
-.logo p {
-		font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 p { font-size: 1.2em;}
 
 .hover-tile-visible {
-	font-size: 2em;
+  font-size: 2em;
 }
 
  @media (min-width: 670px) {
@@ -45,6 +41,6 @@ p { font-size: 1.2em;}
  }
 
 .hero-font {
-	h2 {font-size: 2.5rem;
-	}
+  h2 {font-size: 2.5rem;
+  }
 }

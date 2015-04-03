@@ -1,0 +1,33 @@
+.logo {
+  margin: 0 auto;
+  padding-top: 5rem;
+
+  img {
+    max-width: 212px;
+  }
+
+  h1 {
+    color: $white;
+    font-size: 9rem;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 3px;
+    padding-left: 0; 
+    text-transform: uppercase;
+
+    span {
+      font-size: 11rem;
+    }
+  }
+
+  h2 {
+    font-size: 2rem;
+    margin-top: -40px;
+    padding-bottom: 5rem;
+    padding-left: 7px;
+    color: $white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+}
+

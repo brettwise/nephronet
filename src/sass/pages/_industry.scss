@@ -5,8 +5,9 @@
     color: $dark-turquoise;
   }
 }
+
 .doctors {
-    background: url('../images/biotechdoctors.jpg') no-repeat center center fixed;;
+    background: url('../images/top-doctors.jpg') no-repeat center center fixed;;
     background-size: cover;
     h2 {
     color: $dark-green;
@@ -20,6 +21,7 @@
     color: $gray-green;
   }
 }
+
 .education {
   background: url('../images/education.jpg')no-repeat center center fixed;
   background-size: cover;
@@ -45,10 +47,4 @@
     padding-left: 30px;
   }
 }
-.bottom-call-to-action {
-  background-color: white;
-  color: $gray-green;
-  h6 {
-    color: $gray-green;
-  }
-}
+

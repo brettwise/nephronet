@@ -7,12 +7,18 @@ block content
   .homepage-gradient
     .container
       .row
-        .ten.columns.offset-by-one
-          .logo
+        .logo
+          .three.columns
             a(href='/')
               img.u-max-full-width(src='images/logo.png')
-            p Networking together to cure kidney disease
-            p A NETWORK OF DEDICATED CLINICIANS AND INVESTIGATORS COMMITTED TO ADVANCING ALL ASPECTS OF NEPHROLOGY RESEARCH AND EDUCATION
+          .eight.columns
+            h1
+              span N
+              | ephro
+              span N
+              | et
+          .nine.columns.offset-by-three
+            h2 Networking together to cure kidney disease
       .row
         .four.columns
           a(href='/patients.html')
@@ -39,6 +45,8 @@ block content
                   h2 Physicians
                   p Find out how to get expert, field leading advice from our doctors.
       .row
-        .ten.columns.offset-by-one
-          a(href='downloads/NephroNet_Forum_October_Conference.pdf')
-            h4.registration-link Register Here for the NephroNet Forum Conference Coming to you in October
+        .ten.columns.offset-by-one.centered.announcement
+          h5 The NephroNet Forum Conference 
+          h4 Coming in October
+          br
+          a.registration-button(href='downloads/NephroNet_Forum_October_Conference.pdf') Register Here

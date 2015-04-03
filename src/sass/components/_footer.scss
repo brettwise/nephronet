@@ -1,0 +1,10 @@
+footer {
+  background-image: linear-gradient(330deg, $dark-gray 0, darken($dark-gray, 2%) 40%);
+  color: $white;
+  height: 400px;
+  padding: 60px 10px;
+
+  ul {
+    list-style: none;
+  }
+}
