@@ -31,4 +31,5 @@
 .physicians-button {
   @extend .primary-button;
   @include color-background-button($white, $gray-green);
+  font-size: 1.5rem;
 }
