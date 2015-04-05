@@ -83,7 +83,7 @@ module.exports = {
     cssSrc: dest + '/css/*.css',
     jsSrc: dest + '/js/**/*.js',
     cssDest: dest + '/css',
-    jsDest: dest + '/js/**/*',
+    jsDest: dest + '/js',
     dest: dest
   }
 };

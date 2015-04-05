@@ -3,32 +3,7 @@ $gradient-color-one: $nephro-blue;
 $gradient-color-two: $light-green;
 
 .homepage-gradient {
-  background: linear-gradient(180deg, #13448b, #1858b5);
-  background-size: 400% 400%;
-  -webkit-animation: AnimationName 33s ease infinite;
-  -moz-animation: AnimationName 33s ease infinite;
-  -o-animation: AnimationName 33s ease infinite;
-  animation: AnimationName 33s ease infinite;
-  @-webkit-keyframes AnimationName {
-      0%{background-position:50% 0%}
-      50%{background-position:50% 100%}
-      100%{background-position:50% 0%}
-  }
-  @-moz-keyframes AnimationName {
-      0%{background-position:50% 0%}
-      50%{background-position:50% 100%}
-      100%{background-position:50% 0%}
-  }
-  @-o-keyframes AnimationName {
-      0%{background-position:50% 0%}
-      50%{background-position:50% 100%}
-      100%{background-position:50% 0%}
-  }
-  @keyframes AnimationName {
-      0%{background-position:50% 0%}
-      50%{background-position:50% 100%}
-      100%{background-position:50% 0%}
-  }
+  background-color: $nephro-blue;
 }
 
 
