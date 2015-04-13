@@ -7,10 +7,10 @@ block content
   .homepage-gradient
     .container
       .row
-        .logo
+        .logo.scene-element.scene-element--fadeindown
           include ./includes/logo.jade
       .row
-        .four.columns
+        .four.columns.scene-element.scene-element--fadeinleft
           a(href='/patients.html')
             #girl-image.hover-tile-outer
               .hover-tile-container
@@ -18,7 +18,7 @@ block content
                 .hover-tile.hover-tile-text
                   h2 Patients
                   p Find answers to important questions about your kidney health.
-        .four.columns
+        .four.columns.scene-element.scene-element--fadein
           a(href='/industry.html')
             #industry.hover-tile-outer
               .hover-tile-container
@@ -26,7 +26,7 @@ block content
                 .hover-tile.hover-tile-text
                   h2 Industry
                   p Find information on the latest kidney research.
-        .four.columns
+        .four.columns.scene-element.scene-element--fadeinright
           a(href='/physicians.html')
             #stethoscope.hover-tile-outer
               .hover-tile-container
@@ -34,9 +34,9 @@ block content
                 .hover-tile.hover-tile-text
                   h2 Physicians
                   p Find out how to get expert, field leading advice from our doctors.
-      .row
+      .row.scene-element.scene-element--fadeinup
         .ten.columns.offset-by-one.centered.announcement
           h5 The NephroNet Forum Conference 
           h4 Coming in October
           br
-          a.registration-button(href='downloads/NephroNet_Forum_October_Conference.pdf') Register Here
+          a.registration-button.no-smoothstate(href='downloads/NephroNet_Forum_October_Conference.pdf') Register Here
