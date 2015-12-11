@@ -1,0 +1,54 @@
+.top-call-to-action {
+  text-align: center;
+}
+
+.section-padding {
+  padding: 15rem 0 14rem;
+}
+
+.half-section-padding {
+  padding: 7rem 0 6rem;
+}
+
+.bottom-padding {
+  padding-bottom: 6rem;
+}
+
+.button {
+  color: $dark-turquoise;
+  border: solid $dark-turquoise;
+  &:hover {
+    color: gray;
+  }
+}
+
+.download {
+  color: white;
+  background-color: rgba(0,0,0, 0.6);
+  padding: 5rem;
+  padding-top: 15rem;
+  padding-bottom: 15rem;
+}
+
+.announcement {
+  color: $white;
+  letter-spacing: 1px;
+  margin-bottom: 4rem;
+  padding-top: 7rem;
+  padding-bottom: 4rem;
+  text-transform: uppercase;
+
+  h4 {
+    margin-bottom: 7rem;
+  }
+}
+
+.bottom-call-to-action {
+  background-color: $white;
+  color: $gray-green;
+
+  h5 {
+    color: $gray-green;
+    padding-bottom: 3rem;
+  }
+}

@@ -1,0 +1,77 @@
+.patients-top-call-to-action {
+  background-color: $nephro-blue;
+  color: white;
+  text-align: center;
+
+    h2 {
+      color: $dark-nephro-blue;
+      text-transform: uppercase;
+    }
+}
+
+.woman-doctor {
+    background: url('../images/woman-doctor.jpg') no-repeat center center fixed;
+    background-size: cover;
+
+    h2 {
+    color: $dark-green;
+  }
+}
+
+.collaborate {
+
+  h2 {
+    color: $nephro-blue;
+  }
+
+  p {
+    color: $gray-green;
+  }
+}
+
+.library {
+  background: url('../images/green-library.jpg') no-repeat center center fixed;;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.social-proof {
+  background-color: $gray-green;
+
+  h2 {
+    color: white;
+  }
+
+  h3 {
+    color: $light-green;
+  }
+
+  h6 {
+    margin-top: -21px;
+  }
+
+  p {
+    @include font-italic;
+  }
+
+  .columns {
+    margin-left: 0px;
+    padding-left: 30px;
+  }
+}
+
+.team {
+  background-color: $turquoise;
+
+  h2 {
+    color: white;
+  }
+}
+
+.doctor-circle-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 300px;
+  background: url('../images/doctor-headshot.jpg') no-repeat;
+}
+

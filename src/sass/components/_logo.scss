@@ -1,0 +1,32 @@
+.logo {
+  margin: 0 auto;
+  padding-top: 5rem;
+
+
+}
+
+.text-logo {
+
+  h1 {
+    font-size: 3.2rem;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 3px;
+    padding-left: 0; 
+    text-transform: uppercase;
+
+    span {
+      font-size: 5.2rem;
+    }
+  }
+
+  h2 {
+    font-size: 2rem;
+    margin-top: -40px;
+    padding-bottom: 5rem;
+    padding-left: 7px;
+    color: $white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+}
