@@ -56,6 +56,7 @@ module.exports = {
     // A separate bundle will be generated for each
     // bundle config in the list below
     bundleConfigs: [{
+      entries: src + '/js/global.coffee',
       dest: dest + '/js',
       outputName: 'global.js',
       // Additional file extentions to make optional
