@@ -52,21 +52,6 @@ module.exports = {
       normalize: false
     }
   },
-  browserify: {
-    // A separate bundle will be generated for each
-    // bundle config in the list below
-    bundleConfigs: [{
-      entries: src + '/js/global.coffee',
-      dest: dest + '/js',
-      outputName: 'global.js',
-      // Additional file extentions to make optional
-      extensions: ['.coffee', '.hbs'],
-      // list of modules to make require-able externally
-      require: ['jquery', 'backbone/node_modules/underscore']
-      // See https://github.com/greypants/gulp-starter/issues/87 for note about
-      // why this is 'backbone/node_modules/underscore' and not 'underscore'
-    }]
-  },
   production: {
     cssSrc: dest + '/css/*.css',
     jsSrc: dest + '/js/**/*.js',
