@@ -7,4 +7,5 @@ src/sass/vendor/*
 src/js/vendor/*
 divshot-debug.log
 .divshot-cache
+.publish
 dist
